@@ -2,6 +2,7 @@ import React from 'react';
 import me from './me.jpg';
 import './App.css';
 import "bulma/css/bulma.min.css"
+import Counter from "./Counter";
 
 function App() {
   return (
@@ -11,14 +12,7 @@ function App() {
         <p>
           I am <code>Shaun Wong</code> and I startIT.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <Counter/>
       </header>
     </div>
   );
