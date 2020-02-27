@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import me from './me.jpg';
 import './App.css';
+import "bulma/css/bulma.min.css"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container is-fluid">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={me} className="App-logo" alt="me" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I am <code>Shaun Wong</code> and I startIT.
         </p>
         <a
           className="App-link"
